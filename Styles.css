@@ -1,0 +1,364 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+img { 
+    border-radius: 50%;
+    transition: 0.4s;
+    box-shadow: 0px 10px 8px #b6b5b5;
+}
+
+.img1 { 
+    transition: 0.4s;
+}
+
+.img1:hover {
+    transform: scale(1.05);
+}
+
+/*.profile {
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+}
+*/
+
+.Profileh2 {
+    font-family: poppins;
+    color: rgb(34, 133, 247);
+}
+
+.profilep1 {
+    font-family: poppins;
+    font-size: 0.95em;
+    color: rgb(7, 9, 148);
+}
+
+.b1 {
+    font-family: poppins;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(34, 133, 247);
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px 6px;
+}
+
+.b1:hover {
+    background-color: #e63946;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    border-radius: 20px;
+}
+
+.SkillsCard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.SkillsCard:hover {
+    transform: scale(1.05);
+    background-color: #e63946;
+}
+
+.SkillsHeader:hover {
+    color: white;
+}
+
+.SkillsHeader {
+    text-align: center;
+    font-family: poppins;
+    color: rgb(34, 133, 247);
+}
+
+.SkillInfoCard {
+    font-family: poppins;
+    color: rgb(7, 9, 148);
+    font-size: 0.9em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.SkillInfoCard:hover {
+    transform: scale(1.05);
+}
+
+.skillList1 {
+    list-style: none;
+}
+
+.skillList1 li::before {
+    content: "\2022";
+    color: #e63946;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.skillList2 {
+    list-style: none;
+}
+
+.skillList2 li::before {
+    content: "\2022";
+    color: #e63946;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.LangCard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.LangCard:hover {
+    transform: scale(1.05);
+    background-color: #e63946;
+}
+
+.LangHeader:hover {
+    color: white;
+}
+
+.LangHeader {
+    text-align: center;
+    font-family: poppins;
+    color: rgb(34, 133, 247);
+}
+
+.LangInfoCard {
+    font-family: poppins;
+    color: rgb(7, 9, 148);
+    font-size: 0.9em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.LangInfoCard:hover {
+    transform: scale(1.05);
+}
+
+.LangList1 {
+    list-style: none;
+}
+
+.LangList1 li::before {
+    content: "\2022";
+    color: #e63946;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.LangList2 {
+    list-style: none;
+}
+
+.LangList2 li::before {
+    content: "\2022";
+    color: #e63946;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.EducationCard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.EducationCard:hover {
+    transform: scale(1.05);
+    background-color: #e63946;
+}
+
+.EducationHeader {
+    text-align: center;
+    font-family: poppins;
+    color: rgb(34, 133, 247);
+}
+
+.EducationHeader:hover {
+    color: white;
+}
+
+.EducationInfoCard {
+    font-family: poppins;
+    color: rgb(7, 9, 148);
+    font-size: 0.9em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.EducationInfoCard:hover {
+    transform: scale(1.05);
+}
+
+.CertificationsCard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.CertificationsCard:hover {
+    transform: scale(1.05);
+    background-color: #e63946;
+}
+
+.CertificationsHeader:hover {
+    color: white;
+}
+
+.CertificationsHeader {
+    text-align: center;
+    font-family: poppins;
+    color: rgb(34, 133, 247);
+}
+
+.CertificationsInfoCard {
+    font-family: poppins;
+    color: rgb(7, 9, 148);
+    font-size: 0.9em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.CertificationsInfoCard:hover {
+    transform: scale(1.05);
+}
+
+.Certificateslist {
+    list-style: none;
+}
+
+.Certificateslist li::before {
+    content: "\2022";
+    color: #e63946;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.ExperienceCard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.ExperienceCard:hover {
+    transform: scale(1.05);
+    background-color: #e63946;
+}
+
+.ExperienceHeader:hover {
+    color: white;
+}
+
+.ExperienceHeader {
+    text-align: center;
+    font-family: poppins;
+    color: rgb(34, 133, 247);
+}
+
+.ExperienceInfoCard {
+    font-family: poppins;
+    color: rgb(7, 9, 148);
+    font-size: 0.9em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.ExperienceInfoCard:hover {
+    transform: scale(1.05);
+}
+
+.ReferenceCard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.ReferenceCard:hover {
+    transform: scale(1.05);
+    background-color: #e63946;
+}
+
+.ReferenceHeader:hover {
+    color: white;
+}
+
+.ReferenceHeader {
+    text-align: center;
+    font-family: poppins;
+    color: rgb(34, 133, 247);
+}
+
+.ReferenceInfoCard {
+    font-family: poppins;
+    color: rgb(7, 9, 148);
+    font-size: 0.9em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b6b5b5;
+    width: 70%;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.ReferenceInfoCard:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    font-family: poppins;
+    font-size: 0.6em;
+    color:azure;
+    text-align: center;
+    background-color: #e63946;
+    border-radius: 2px;
+}
